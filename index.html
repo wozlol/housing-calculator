@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Las Vegas Housing and Meals Pilot Budget Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the calculator</a>
+
+<header id="top">
+  <div class="wrap">
+    <div class="titlebar">
+      <h1>Las Vegas Housing and Meals Pilot Budget Calculator</h1>
+      <div class="tools">
+        <button type="button" id="btn-demo">Load demonstration</button>
+        <button type="button" id="btn-blank">Start blank planning</button>
+        <button type="button" id="btn-undo" hidden>Undo</button>
+        <button type="button" id="btn-print">Print summary</button>
+        <button type="button" id="btn-link">Copy share link</button>
+        <button type="button" id="btn-export">Save file</button>
+        <label class="filebtn">Open file<input type="file" id="file-import" accept=".json,application/json"></label>
+      </div>
+    </div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <div class="scen" role="tablist" aria-label="Housing scenario">
+      <button type="button" role="tab" data-scen="apartments">Apartments</button>
+      <button type="button" role="tab" data-scen="motel">Motel rooms</button>
+      <button type="button" role="tab" data-scen="prefab">Prefab homes</button>
+    </div>
+    <div id="strip" aria-live="polite"></div>
+  </div>
+</header>
+
+<nav id="tabs" class="wrap" aria-label="Sections">
+  <button type="button" data-tab="results">Results and decisions</button>
+  <button type="button" data-tab="assume">Assumptions</button>
+  <button type="button" data-tab="compare">Compare housing</button>
+  <button type="button" data-tab="sources">Sources and open questions</button>
+  <button type="button" data-tab="check">Operator checklist and test notes</button>
+  <button type="button" data-tab="math">Math checks</button>
+</nav>
+
+<main id="main" class="wrap">
+  <div id="banner"></div>
+
+  <section id="tab-results" class="tab">
+    <div class="howto" id="howto"></div>
+    <div id="r-head"></div>
+    <div id="r-actions"></div>
+    <div id="r-levers"></div>
+    <div id="r-close"></div>
+    <div id="r-costs"></div>
+    <div id="r-sens"></div>
+    <div id="r-missing"></div>
+  </section>
+
+  <section id="tab-assume" class="tab" hidden></section>
+  <section id="tab-compare" class="tab" hidden></section>
+  <section id="tab-sources" class="tab" hidden></section>
+  <section id="tab-check" class="tab" hidden></section>
+  <section id="tab-math" class="tab" hidden></section>
+</main>
+
+<div id="printOnly"></div>
+
+<script src="calc.js"></script>
+<script src="checks.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

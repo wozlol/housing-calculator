@@ -1,0 +1,286 @@
+LAS VEGAS HOUSING AND MEALS PILOT
+PROJECT CONTEXT AND CALCULATOR BUILD INSTRUCTIONS
+
+Use this as a handoff to another AI, developer, or spreadsheet builder. Build the usable calculator described below. The project context explains why it exists. The numerical demonstration is invented for testing and is not a Las Vegas price estimate.
+
+1. THE PROJECT
+
+I’m developing a small Las Vegas pilot that pairs stable housing with regular meals and ongoing support for unsheltered adults. Research will guide the choice between available apartments, motel rooms, and prefab homes. The eventual package should explain the full costs and daily responsibilities clearly enough for an existing local organization to assess and take over.
+
+The human goal is to help people get food and a safe, stable place to live with fewer barriers. The financial argument is a way to win support from people who dismiss assistance as wasteful. Do not make the project sound as though helping people matters only when it produces taxpayer savings.
+
+This problem is not new. Use studies, documented precedents, and actual results to choose the approach. Present the reasoning in clear, digestible language. Be persuasive by showing the evidence and the numbers, without promising outcomes the research does not establish.
+
+2. WHO USES IT AND WHO IT HELPS
+
+- Users of the toolkit are a local nonprofit, city or county program team, and potential funding partners.
+- Beneficiaries are unsheltered adults in Las Vegas. The current pilot direction starts with adults who repeatedly need emergency services. Eligibility and the support needed still require local review.
+- The project is an adoption and planning toolkit. It is not a claim that an operator, property, funding source, or food partnership has already been secured.
+- Families and people needing intensive clinical care may need different units or additional services. Do not imply this first pilot serves everyone.
+
+3. WHAT VERSION ONE MUST DO FOR THE COURSE
+
+The assignment is Project 3, Solution Brief. A description or proposal alone does not qualify as version one. Someone must be able to open and use the main function.
+
+The proposed version one is a usable planning toolkit containing:
+
+- A working budget calculator.
+- A housing comparison worksheet.
+- A short operator guide or checklist.
+
+The calculator is the first piece to build. A reviewer must be able to change assumptions and immediately see the effect on spending, funding needed, and the funding gap.
+
+The course also requires showing version one to at least one real person outside the class, recording their actual feedback, and explaining the resulting change. An AI review does not replace that person. No real-person test has been recorded in this conversation. Do not invent one.
+
+The final submission is a one-page Word or PDF Solution Brief plus access to version one. The brief must cover what was built, the real-person test and changes, remaining risks and privacy issues, and one specific contribution from the agent. The pitch is scheduled for November 29, 2026. If sharing a link, test access without the creator’s account. Canvas lists DOC, DOCX, and PDF as accepted upload types, so a spreadsheet may need a working access link in the brief.
+
+4. DECISIONS AND CORRECTIONS TO PRESERVE
+
+- Housing First with ongoing support is the direction being explored. Do not require treatment or sobriety before housing as a design default.
+- Help residents complete required paperwork. Do not promise that leases, consent, eligibility records, or all other documentation can be eliminated.
+- Preserve tenant rights. Do not implement Bort’s proposed no-lease key privileges or a pass-or-fail room inspection system as a substitute for tenancy protections.
+- A 12-month evaluation or funding period is not automatically a deadline for residents to lose housing. Include continued housing or transition funding in the plan.
+- A repair reserve reduces some risk. It does not guarantee zero landlord risk, instant reimbursement, or zero downtime.
+- Existing food rescue is a potential supply channel. It does not establish a committed delivery agreement, guaranteed daily meals, or zero logistics and staffing costs.
+- Thirty to fifty units, 12 months, and rent of $1,200 to $1,500 monthly were Bort’s proposed settings. They are not verified quotes or research-proven optimal settings.
+- Do not assume apartments or motels always launch fastest, or prefab homes are inherently easier to sanitize. Compare actual sites, property condition, approvals, utilities, accessibility, costs, and availability.
+- Do not collect resident names, medical records, criminal histories, or other personal information in this calculator. It uses aggregate planning assumptions only.
+
+5. RESEARCH ALREADY IDENTIFIED
+
+Use these as starting references, not as current local price inputs.
+
+A. Community Preventive Services Task Force.
+Its review of 26 studies supports permanent supportive housing with Housing First for people experiencing homelessness who have disabling conditions. This supports the service model, not an arbitrary unit count, inspection schedule, or guaranteed result for this exact pilot.
+https://thecommunityguide.cdc.gov/pages/tffrs-social-determinants-health-housing-first-programs.html
+
+B. Urban Institute, Denver Supportive Housing evaluation.
+The randomized trial reported 27 percent fewer jail days. Cost offsets covered approximately half the program’s annual cost. The difference in emergency medical service use was not statistically significant. Keep reduced service demand separate from cash actually available to fund the pilot.
+https://www.urban.org/policy-centers/metropolitan-housing-and-communities-policy-center/projects/denver-supportive-housing-social-impact-bond-initiative/what-we-learned-evaluation
+
+C. Three Square, Food Rescue and Distribution.
+This documents prepared, unserved resort food rescue. Availability and logistics for a new pilot still need confirmation.
+https://www.threesquare.org/learn/programs/food-rescue-distribution
+
+D. Canadian Housing First Toolkit, Working with Landlords.
+Useful operating guidance on landlord contacts, repairs, mitigation funds, support, and tenant rights. It is not a substitute for local legal requirements.
+https://housingfirsttoolkit.ca/implement/supplemental-resources/working-with-landlords/
+
+E. City of Las Vegas, Data on the Cost of Homelessness, September 18, 2019.
+The $39,510 annual estimate is historical. The associated community estimate includes public and private spending. Do not prefill it as today’s avoidable government cost per person.
+https://www.lasvegasnevada.gov/News/Blog/Detail/data-on-the-cost-of-homelessness
+
+F. MGM Resorts, 2024 Corporate Responsibility Report, printed page 11.
+Distinguishes five million donated meals from 2.2 million rescued through the prepared-food method. Do not describe all five million as rescued banquet meals.
+https://filecache.investorroom.com/mr5ir_mgmresorts/653/download/2024-corporate-responsibility-report.pdf
+
+G. FDA, Key Steps for Donating Food.
+Relevant to budgeting transport, safe storage, trained handling, labeling, and recordkeeping.
+https://www.fda.gov/food/retail-food-industryregulatory-assistance-training/key-steps-donating-food-retail-food-establishments
+
+Other Bort figures still need traceable, dated sources, including jail, ambulance, UMC, high-utilizer, and Courtyard costs. Distinguish charges from payments, avoidable costs, and broad social costs. Do not assume a room and meals immediately stop emergency calls.
+
+6. BUILD REQUEST
+
+Build a working Las Vegas Housing and Meals Pilot Budget Calculator. An editable spreadsheet is the established first format. A small web calculator is acceptable if that is the chosen build environment. Preserve the same calculations, source tracking, and test cases in either format.
+
+The main user task is to compare plausible housing scenarios and understand the complete funding requirement. Keep version one focused. Do not turn it into a resident database, grant portal, legal agreement generator, or automated eligibility system.
+
+Suggested spreadsheet tabs or equivalent web sections:
+
+1. Start and results.
+2. Editable assumptions and cost lines.
+3. Housing scenarios and comparison.
+4. Sources and unresolved questions.
+5. Operator checklist and reviewer notes.
+
+7. INPUTS
+
+Each input needs a label, unit, value, and source status. Cost lines also need a source link or note and a date. Use statuses such as local quote, published reference, planning assumption, demonstration, and unknown. These statuses are descriptions, not automatic claims of verification.
+
+Capacity and duration:
+- Units, U.
+- Residents per occupied unit, P.
+- Average occupancy, O, entered as a percentage.
+- Duration in months, M.
+- Planning days, D. Derive D = 365 × M / 12 and state that this is a planning approximation.
+
+Housing:
+- Monthly rent per leased unit.
+- Monthly utilities and internet per unit.
+- Startup furnishings, equipment, and setup.
+- Refundable deposits, tracked separately as cash held.
+- For owned or prefab options, acquisition, delivery, site work, land, foundations, utility connections, and approvals as separate startup or capital lines. Do not assume they are zero.
+- Separate any recurring land lease or financing cost from an upfront purchase. Do not count both purchase funding and the same financing principal as two acquisition costs.
+
+Staffing, using editable role rows:
+- Role, full-time equivalents, annual salary, and payroll burden percentage.
+- Include resident support, peer support, property coordination, and food handling where applicable.
+- Do not automatically increase or decrease staff with occupancy. Staffing coverage is an explicit assumption. Allow additional staffing rows.
+
+Meals:
+- Meals per resident per day.
+- Share supplied through donated meals.
+- Cash cost per purchased meal.
+- Supplements or groceries per resident per day.
+- Monthly food transport and storage costs.
+- Separate food-handling labor from meal purchase cost. Avoid counting the same labor twice.
+
+Other costs and funding:
+- Monthly insurance, administration, maintenance, and other recurring lines.
+- Expected reserve-funded repair spending during the period, X.
+- Opening repair reserve, R.
+- Contingency rate, T.
+- Committed funding, F. Keep possible or requested funding separate and exclude it from F.
+- Explicit support or transition costs needed to avoid an abrupt housing loss when the pilot period ends.
+
+Blank means unknown. It must not silently become a verified zero. Let a user explicitly enter zero with an explanation. Show a known-cost subtotal and an incomplete-budget warning when required lines are unknown.
+
+8. CALCULATIONS
+
+Use full precision internally. Round only for display.
+
+Average residents housed = U × P × O.
+Resident months = average residents housed × M.
+Resident days = average residents housed × D.
+
+Rent = U × monthly rent per unit × M.
+Apply rent to all leased units, including vacant units. Do not multiply fixed lease costs by occupancy.
+
+Staff cost for each role = FTE × annual salary × (1 + payroll burden) × M / 12.
+Total staff cost = sum of role costs.
+
+Meals required = resident days × meals per day.
+Purchased meals = meals required × (1 - donated share).
+Meal purchase cost = purchased meals × cash cost per purchased meal.
+Supplements = resident days × supplements per resident day.
+Food logistics = monthly transport and storage cost × M.
+
+Convert every other recurring line using its declared basis. Per-unit monthly costs multiply U × M. Per-resident-day costs multiply resident days. Fixed monthly costs multiply M. One-time costs are counted once.
+
+Let A = recurring operating spending for the period, excluding repairs paid from the repair reserve.
+Let S = startup and capital spending, excluding refundable deposits and reserve allocations.
+Let H = refundable deposits held.
+Let X = expected spending on repairs paid from the reserve.
+Let R = opening repair reserve.
+
+Contingency allowance C = T × (A + S + X).
+This is a cash allowance held for uncertainty. It is not automatically money already spent.
+
+Planned spending E = A + S + X.
+Base funding envelope B = A + S + H + R + C.
+Additional repair funding needed G = MAX(0, X - R).
+Full funding requirement K = B + G.
+Unspent repair reserve at period end = MAX(0, R - X).
+Funding gap = MAX(0, K - F).
+Funding headroom = MAX(0, F - K).
+
+This avoids counting the full repair reserve and its expected repairs twice. If the opening reserve is too small, show the extra funding needed clearly. Do not assume an unknown donor will cover it.
+
+Spending per occupied resident month = E / resident months.
+Spending per resident day = E / resident days.
+Funding requirement per occupied resident month = K / resident months.
+
+Keep spending and the funding envelope distinct. Deposits, unspent reserve, and unspent contingency require funding but are not necessarily spent. Capital spending is included in first-period cash spending and must remain visible separately from ongoing operating cost. Do not present a short first-period comparison as a lifecycle cost study.
+
+When occupancy is zero, fixed costs remain. Display per-resident figures as not applicable. Never divide by zero or display infinity.
+
+9. RESULTS AND COMPARISON
+
+Always show:
+- Capacity, occupancy, and modeled average residents.
+- Recurring operating costs.
+- Startup and capital spending.
+- Expected repair spending.
+- Cash held for reserve, refundable deposits, and contingency.
+- Total funding requirement and committed-funding gap.
+- Cost per occupied resident month and per resident day.
+- The largest cost categories.
+- Missing inputs and demonstration-only values.
+
+Compare apartments, motels, and prefab scenarios using the same duration and clearly stated capacity assumptions. Show differences in unit counts, occupancy, services, or staffing instead of hiding them. A housing comparison needs actual availability, readiness, accessibility, resident fit, and source notes as well as cost. Leave these unknown until checked.
+
+Do not generate an automatic research-backed winner from invented scores. If scores or weights are added later, show how they were chosen. Missing critical data should prevent an unsupported recommendation.
+
+10. DO NOT BUILD A FALSE SAVINGS CLAIM
+
+Version one is primarily a complete-cost and funding calculator. Do not subtract the calculated housing cost from $39,510 and label the result taxpayer savings.
+
+An optional future service-offset module would need a matching population, a comparison period, sourced service-use estimates, appropriate avoidable unit costs, and an explicit distinction between reduced demand and cash recoverable by a particular budget holder. Avoid counting overlapping services twice. Keep such estimates separate from committed pilot funding.
+
+Do not use Denver’s percentage reduction as a guaranteed prediction for Las Vegas. Do not prefill a universal savings rate.
+
+11. INTERFACE AND DELIVERY
+
+- Make editable inputs obvious and calculated outputs protected or visually distinct.
+- Label each monetary amount as monthly, annual, per resident day, per unit, or one time.
+- Use plain language and a readable cost breakdown.
+- Provide a Reset or Load demonstration action and a separate blank planning scenario.
+- Let users save a scenario or copy the spreadsheet, and print or export a readable results summary.
+- Keep sources beside the assumptions they support.
+- If implemented as a web page, no login or resident data collection is needed. Make sharing and keyboard use work.
+- Keep code, hosting details, and other implementation explanations out of the reviewer’s main task flow.
+
+12. DEMONSTRATION AND REQUIRED MATH CHECKS
+
+Load this invented example only when clearly marked Demonstration. These are test fixtures, not market prices, staffing recommendations, or an adequate real budget.
+
+U = 10 units.
+P = 1 resident per occupied unit.
+O = 80 percent.
+M = 12 months, so D = 365 planning days.
+Rent = $1,000 per unit per month.
+Staff = 1 FTE at $50,000 annual salary with 20 percent payroll burden.
+Meals = 1 purchased meal per resident day, $5 per meal, 0 percent donated.
+S = $10,000 startup spending.
+H = $0 refundable deposits.
+R = $10,000 repair reserve.
+X = $3,000 expected reserve-funded repairs.
+T = 0 percent contingency.
+F = $200,000 committed funding.
+All other demo costs are explicitly set to zero and labeled omitted from demonstration. They must be reviewed in a real planning scenario.
+
+Expected results:
+- Average residents = 8.
+- Resident months = 96.
+- Resident days = 2,920.
+- Rent = $120,000.
+- Staffing = $60,000.
+- Meal purchase cost = $14,600.
+- A = $194,600.
+- E = $207,600.
+- B and K = $214,600.
+- G = $0.
+- Unspent repair reserve = $7,000.
+- Funding gap = $14,600.
+- Spending per occupied resident month = $2,162.50.
+- Spending per resident day = approximately $71.10.
+- Funding requirement per occupied resident month = approximately $2,235.42.
+
+Additional checks:
+1. Increasing monthly rent by $100 increases period spending and funding required by $12,000.
+2. At zero occupancy, rent and staffing remain, meal costs become zero, and per-resident outputs show not applicable.
+3. With X increased to $15,000, G becomes $5,000. Both E and K become $219,600. Do not add repairs twice.
+4. With donated share set to 100 percent, meal purchase cost becomes zero. Separate logistics, storage, and supplements must remain if entered.
+5. Reject negative costs, invalid percentages, zero or negative duration, and invalid unit counts. Changing one cost must not silently change staffing or the housing model.
+6. Unknown required costs must trigger an incomplete result rather than a deceptively complete zero-cost budget.
+
+13. OPERATOR GUIDE AND REAL-PERSON TEST
+
+The companion checklist should identify who is responsible for each item, whether it is confirmed, and what evidence is needed. Include housing agreements, funding, resident support, rent payment, repairs, food deliveries and storage, backup food, complaints and emergencies, and housing continuity. Do not fabricate partner commitments, vendor contacts, or legal clauses.
+
+Test the working calculator with one person outside the course. Ask them to load the example, change rent, explain the difference between spending and funding required, find the funding gap, and identify an unverified assumption. Record what they actually do, where they hesitate, their comments, and the resulting change. Do not claim a clinical, legal, or operational validation based on this usability test.
+
+Return a usable file or link, a short how-to, and confirmation that the math checks passed. The user should be able to experience the main function rather than receive another outline.
+
+14. WRITING AND SCOPE
+
+Use concise, direct, professional language that ordinary people can understand. No em dashes or semicolons. Avoid corporate wording, exaggerated certainty, and repeated explanations. Keep the purpose of helping people visible. Put research corrections and technical development notes outside the class post or submission unless the rubric needs them.
+
+Current source documents in this project:
+- Las_Vegas_Solution_Direction_Draft.docx.
+- Bort_Research_and_Design_Feedback.docx.
+- Where_Im_Headed_Community_Post.docx.
+- The original Bort breakdowns, which contain uncorrected claims and must be read alongside the feedback.
+
+END OF HANDOFF
