@@ -112,6 +112,8 @@ ol.actions .why { color: var(--muted); font-size: 13px; display: block; }
 .src li { margin: 6px 0; }
 .addrow { margin-top: 6px; }
 
+#foot { margin-top: 28px; padding-top: 12px; padding-bottom: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+#foot a { color: var(--accent); }
 #printOnly { display: none; }
 @media print {
   body > *:not(#printOnly) { display: none !important; }
